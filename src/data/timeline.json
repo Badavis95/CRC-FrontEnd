@@ -24,22 +24,16 @@
     },
     {
       "year": "2018",
-      "title": "Building & Surviving",
-      "description": "VitaminShoppe Keyholder by day, founder by night. Worked retail to survive and fund inventory - not as a backup plan, but because CPG is expensive and there was no safety net. Never stopped building.",
+      "title": "Traction & Loss",
+      "description": "Appeared on local TV twice. Sold thousands of units. Got to VitaminShoppe NATIONAL BUYER meetings - distribution was within reach. Then Pilotworks shut down in October, taking production capability overnight.",
       "type": "entrepreneurship",
-      "icon": "battery-charging"
+      "icon": "tv",
+      "highlight": true
     },
     {
       "year": "2019",
-      "title": "Television & Traction",
-      "description": "Appeared on local TV twice. Sold thousands of units through events and farmers markets. Got to VitaminShoppe NATIONAL BUYER meetings - distribution was within reach. Then Pilotworks shut down.",
-      "type": "entrepreneurship",
-      "icon": "tv"
-    },
-    {
-      "year": "2020",
       "title": "The Pivot",
-      "description": "Pilotworks (WeWork-style commercial kitchen) collapsed, taking hundreds of food startups with it. Lost the means to make the product overnight. Made the hard decision to pivot to IT. Started self-teaching - no bootcamp, no CS degree.",
+      "description": "Made the hard decision to pivot to IT. Started self-teaching everything - no bootcamp, no CS degree. VitaminShoppe Keyholder by day, learning systems and scripting by night.",
       "type": "transition",
       "icon": "refresh-cw"
     },
@@ -54,7 +48,7 @@
     {
       "year": "2022",
       "title": "AI Early Adopter",
-      "description": "Gained API access to GPT-3.5/ChatGPT playground in August 2022 - THREE MONTHS before the Nov 30, 2022 public launch. Top 0.1% of early users (ChatGPT Wrapped verified). Started building with LLMs immediately.",
+      "description": "API access to GPT-3.5/ChatGPT playground in August - three months before the November public launch. Top 0.1% of early users (ChatGPT Wrapped verified). Started building with LLMs immediately.",
       "type": "ai",
       "icon": "cpu",
       "highlight": true
@@ -76,8 +70,8 @@
     },
     {
       "year": "2025",
-      "title": "What's Next?",
-      "description": "Looking for the right opportunity to combine technical depth with customer understanding and builder mentality. AI-focused product roles, developer relations, solutions architecture - wherever I can build things that genuinely help people.",
+      "title": "What's Next",
+      "description": "Looking for the right opportunity to combine technical depth with customer understanding and builder mentality. AI-focused roles where I can work on technology that genuinely helps people.",
       "type": "future",
       "icon": "arrow-right"
     }

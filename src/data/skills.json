@@ -1,35 +1,16 @@
 {
   "categories": [
     {
-      "id": "ai",
-      "name": "AI & Machine Learning",
-      "icon": "brain",
+      "id": "sysadmin",
+      "name": "Systems Administration",
+      "icon": "server",
       "skills": [
-        { "name": "LLM Integration", "level": "expert", "details": "OpenAI, Anthropic (Claude), Google, DeepSeek, Kimi - API access since Aug 2022" },
-        { "name": "Prompt Engineering", "level": "expert", "details": "Top 0.1% early ChatGPT user (verified)" },
-        { "name": "API Debugging & Orchestration", "level": "expert" },
-        { "name": "Vector Databases", "level": "advanced", "details": "pgvector, semantic search, RAG" },
-        { "name": "Embeddings & Memory Systems", "level": "advanced", "details": "Evidence-based claims, contradiction detection" },
-        { "name": "Local Model Fine-tuning", "level": "intermediate", "details": "RTX 5090, local inference" },
-        { "name": "Voice AI", "level": "intermediate", "details": "TTS/STT pipelines, voice-first UX" },
-        { "name": "MCP Servers", "level": "intermediate" }
-      ]
-    },
-    {
-      "id": "development",
-      "name": "Development & Automation",
-      "icon": "code",
-      "skills": [
-        { "name": "Python", "level": "advanced", "details": "FastAPI, asyncio, automation" },
-        { "name": "PowerShell", "level": "expert" },
-        { "name": "Bash", "level": "intermediate" },
-        { "name": "C#", "level": "intermediate" },
-        { "name": "JavaScript/TypeScript", "level": "intermediate" },
-        { "name": "React", "level": "intermediate" },
-        { "name": "PostgreSQL", "level": "intermediate" },
-        { "name": "REST APIs", "level": "advanced" },
-        { "name": "WebSocket", "level": "intermediate" },
-        { "name": "Git/GitHub", "level": "advanced" }
+        { "name": "Windows Server", "level": "expert", "details": "2016/2019/2022" },
+        { "name": "Active Directory", "level": "expert" },
+        { "name": "Group Policy", "level": "expert" },
+        { "name": "Linux", "level": "advanced", "details": "RHEL, CentOS, Ubuntu" },
+        { "name": "Identity Management", "level": "expert", "details": "AD, Okta, Azure AD, SSO/SAML" },
+        { "name": "Networking", "level": "advanced", "details": "TCP/IP, DNS, DHCP, VPN, Firewalls" }
       ]
     },
     {
@@ -37,58 +18,70 @@
       "name": "Cloud & Infrastructure",
       "icon": "cloud",
       "skills": [
-        { "name": "AWS", "level": "certified", "details": "EC2, S3, Lambda, VPC, IAM, CloudFormation, CloudFront, Route 53, DynamoDB, API Gateway" },
+        { "name": "AWS", "level": "certified", "details": "EC2, S3, Lambda, VPC, IAM, CloudFormation, Route53, DynamoDB, API Gateway" },
         { "name": "Azure", "level": "intermediate", "details": "Azure AD, basic services" },
         { "name": "VMware vSphere", "level": "advanced" },
         { "name": "Docker", "level": "intermediate" },
-        { "name": "Dynatrace", "level": "advanced" },
-        { "name": "CloudWatch", "level": "intermediate" }
+        { "name": "Terraform", "level": "intermediate" },
+        { "name": "Monitoring", "level": "advanced", "details": "Dynatrace, CloudWatch, ManageEngine" }
       ]
     },
     {
-      "id": "sysadmin",
-      "name": "Systems Administration",
-      "icon": "server",
+      "id": "development",
+      "name": "Development & Automation",
+      "icon": "code",
       "skills": [
-        { "name": "Windows Server", "level": "expert", "details": "2016-2022" },
-        { "name": "Active Directory", "level": "expert" },
-        { "name": "Group Policy", "level": "expert" },
-        { "name": "Linux", "level": "advanced", "details": "Ubuntu, CentOS, RHEL" },
-        { "name": "Identity Management", "level": "expert", "details": "AD, Okta, Azure AD, hybrid" },
-        { "name": "Networking", "level": "advanced", "details": "TCP/IP, DNS, DHCP, VPN" }
+        { "name": "Python", "level": "advanced", "details": "FastAPI, asyncio, automation scripts" },
+        { "name": "PowerShell", "level": "expert", "details": "Enterprise automation, AD management" },
+        { "name": "C#", "level": "intermediate", "details": "Security monitoring applications" },
+        { "name": "JavaScript/TypeScript", "level": "intermediate" },
+        { "name": "React", "level": "intermediate" },
+        { "name": "SQL/PostgreSQL", "level": "intermediate" },
+        { "name": "REST APIs", "level": "advanced" },
+        { "name": "Git/CI-CD", "level": "advanced", "details": "GitHub Actions, Jenkins" }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI & Machine Learning",
+      "icon": "brain",
+      "skills": [
+        { "name": "LLM Integration", "level": "expert", "details": "OpenAI, Anthropic, Google, DeepSeek APIs" },
+        { "name": "Prompt Engineering", "level": "expert" },
+        { "name": "Vector Databases", "level": "advanced", "details": "pgvector, semantic search, RAG" },
+        { "name": "AI Application Architecture", "level": "advanced", "details": "Memory systems, tool orchestration" },
+        { "name": "Voice AI", "level": "intermediate", "details": "TTS/STT pipelines" },
+        { "name": "Local Model Deployment", "level": "intermediate", "details": "RTX 5090, inference optimization" }
       ]
     },
     {
       "id": "support",
-      "name": "Customer-Facing & Support",
+      "name": "Technical Support",
       "icon": "users",
       "skills": [
-        { "name": "Enterprise IT Support", "level": "expert" },
+        { "name": "Enterprise IT Support", "level": "expert", "details": "5,000+ users, 99.5% SLA" },
+        { "name": "Technical Documentation", "level": "expert" },
         { "name": "Stakeholder Communication", "level": "expert" },
         { "name": "Training & Mentorship", "level": "advanced" },
-        { "name": "Technical Documentation", "level": "expert" },
-        { "name": "SLA Management", "level": "expert" },
-        { "name": "Escalation Handling", "level": "advanced" }
+        { "name": "Escalation Management", "level": "advanced" },
+        { "name": "Remote Support Tools", "level": "expert", "details": "Bomgar, BigFix, ServiceNow" }
       ]
     },
     {
       "id": "business",
-      "name": "Business & Entrepreneurship",
+      "name": "Entrepreneurship",
       "icon": "briefcase",
       "skills": [
-        { "name": "Product Development", "level": "expert" },
-        { "name": "Sales & Direct Engagement", "level": "expert" },
-        { "name": "Marketing & Branding", "level": "advanced" },
-        { "name": "Business Operations", "level": "advanced" },
-        { "name": "Supply Chain Management", "level": "intermediate" },
-        { "name": "Financial Planning", "level": "intermediate" },
-        { "name": "Pitch Presentations", "level": "advanced" }
+        { "name": "Product Development", "level": "expert", "details": "Zero-to-one execution" },
+        { "name": "Direct Sales", "level": "expert", "details": "Thousands of units sold personally" },
+        { "name": "Brand Building", "level": "advanced" },
+        { "name": "Operations", "level": "advanced", "details": "Supply chain, vendor management" }
       ]
     }
   ],
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect - Associate",
+      "name": "AWS Solutions Architect - Associate",
       "issuer": "Amazon Web Services",
       "date": "2023",
       "status": "active"
