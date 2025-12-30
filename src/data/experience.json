@@ -1,0 +1,97 @@
+{
+  "experience": [
+    {
+      "id": "transcore",
+      "company": "TransCore",
+      "role": "System Administrator",
+      "type": "full-time",
+      "startDate": "2024-02",
+      "endDate": null,
+      "current": true,
+      "location": "Union, NJ",
+      "locationType": "on-site",
+      "description": "Infrastructure and automation specialist supporting mission-critical toll collection systems.",
+      "achievements": [
+        "Developed C# security monitoring application for fraud prevention across toll systems",
+        "Automated reporting workflows with Python, saving 5+ hours per week",
+        "Built PowerShell automation framework for batch user provisioning (100+ users)",
+        "Primary Domain Administrator managing 200+ workstations",
+        "Reduced ticket processing time by 75% through automation",
+        "Manage Linux production servers with Dynatrace monitoring",
+        "Coordinate vendor communications for hardware and software upgrades"
+      ],
+      "technologies": [
+        "Windows Server",
+        "Active Directory",
+        "PowerShell",
+        "Python",
+        "C#",
+        "Linux (RHEL/CentOS)",
+        "VMware",
+        "Dynatrace",
+        "ServiceNow"
+      ]
+    },
+    {
+      "id": "vitaminshoppe",
+      "company": "VitaminShoppe",
+      "role": "IT Service Desk Analyst",
+      "type": "full-time",
+      "startDate": "2021-05",
+      "endDate": "2024-01",
+      "current": false,
+      "location": "Remote",
+      "locationType": "remote",
+      "description": "Enterprise IT support for a national retail chain with 700+ stores.",
+      "achievements": [
+        "Supported 5,000+ end users across corporate headquarters and retail locations",
+        "Maintained 99.5% SLA compliance for ticket resolution",
+        "Built Python automation for ticket escalation, reducing response time by 35%",
+        "Created PowerShell diagnostic tools for common issues",
+        "Managed hybrid identity across Active Directory, Okta, and Office 365",
+        "Trained and mentored new team members",
+        "Developed technical documentation and knowledge base articles"
+      ],
+      "technologies": [
+        "ServiceNow",
+        "Active Directory",
+        "Okta",
+        "Office 365",
+        "Azure AD",
+        "PowerShell",
+        "Python",
+        "Windows 10/11"
+      ]
+    },
+    {
+      "id": "serenergy",
+      "company": "Serenergy",
+      "role": "Founder & CEO",
+      "type": "founder",
+      "startDate": "2018-01",
+      "endDate": "2020-01",
+      "current": false,
+      "location": "Brooklyn, NY",
+      "locationType": "on-site",
+      "description": "Founded and operated a consumer packaged goods company producing nootropic energy shots.",
+      "achievements": [
+        "Created caffeine + L-theanine nootropic formula from scratch",
+        "Built brand identity, packaging, and marketing materials",
+        "Appeared on local television twice to promote the product",
+        "Sold thousands of units at $2 per bottle through direct sales",
+        "Advanced to buyer meetings with VitaminShoppe (national distribution)",
+        "Managed complete supply chain from commercial kitchen facility",
+        "Built everything solo while attending college full-time"
+      ],
+      "technologies": [
+        "Business Operations",
+        "Sales",
+        "Marketing",
+        "Supply Chain",
+        "Product Development",
+        "Brand Building"
+      ],
+      "note": "Business ended when commercial kitchen partner (Pilotworks) shut down unexpectedly, collapsing supply chain."
+    }
+  ]
+}

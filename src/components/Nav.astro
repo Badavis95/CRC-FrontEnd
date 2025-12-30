@@ -1,0 +1,104 @@
+---
+const navLinks = [
+  { href: "#about", label: "About" },
+  { href: "#timeline", label: "Journey" },
+  { href: "#skills", label: "Skills" },
+  { href: "#projects", label: "Projects" },
+  { href: "#experience", label: "Experience" },
+  { href: "#contact", label: "Contact" },
+];
+---
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="container-narrow flex items-center justify-between py-4">
+    <a href="#" class="font-display text-xl font-bold text-[var(--color-text-primary)] hover:text-[var(--color-accent)] transition-colors">
+      BD
+    </a>
+
+    <ul class="hidden md:flex items-center gap-8">
+      {navLinks.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class="text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors text-sm font-medium"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+      <li>
+        <a href="/Brian_Davis_Resume.pdf" download class="btn-primary text-sm">
+          Resume
+        </a>
+      </li>
+    </ul>
+
+    <button
+      id="mobile-menu-btn"
+      class="md:hidden p-2 text-[var(--color-text-primary)]"
+      aria-label="Toggle menu"
+      aria-expanded="false"
+    >
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="hidden md:hidden bg-[var(--color-bg-secondary)] border-t border-[var(--color-bg-tertiary)]">
+    <ul class="container-narrow py-4 flex flex-col gap-4">
+      {navLinks.map((link) => (
+        <li>
+          <a
+            href={link.href}
+            class="block text-[var(--color-text-secondary)] hover:text-[var(--color-accent)] transition-colors py-2"
+          >
+            {link.label}
+          </a>
+        </li>
+      ))}
+      <li class="pt-2">
+        <a href="/Brian_Davis_Resume.pdf" download class="btn-primary inline-block text-sm">
+          Resume
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+
+  let isMenuOpen = false;
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar?.classList.add('bg-[var(--color-bg-primary)]/95', 'backdrop-blur-sm', 'shadow-lg');
+    } else {
+      navbar?.classList.remove('bg-[var(--color-bg-primary)]/95', 'backdrop-blur-sm', 'shadow-lg');
+    }
+  });
+
+  mobileMenuBtn?.addEventListener('click', () => {
+    isMenuOpen = !isMenuOpen;
+    mobileMenu?.classList.toggle('hidden');
+    menuIcon?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+    mobileMenuBtn?.setAttribute('aria-expanded', isMenuOpen.toString());
+  });
+
+  document.querySelectorAll('#mobile-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+      mobileMenu?.classList.add('hidden');
+      menuIcon?.classList.remove('hidden');
+      closeIcon?.classList.add('hidden');
+      isMenuOpen = false;
+      mobileMenuBtn?.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>

@@ -1,0 +1,116 @@
+{
+  "categories": [
+    {
+      "id": "business",
+      "name": "Business & Entrepreneurship",
+      "icon": "briefcase",
+      "skills": [
+        { "name": "Product Development", "level": "expert" },
+        { "name": "Sales & Direct Engagement", "level": "expert" },
+        { "name": "Marketing & Branding", "level": "advanced" },
+        { "name": "Business Operations", "level": "advanced" },
+        { "name": "Supply Chain Management", "level": "intermediate" },
+        { "name": "Financial Planning", "level": "intermediate" },
+        { "name": "Pitch Presentations", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "support",
+      "name": "Customer-Facing & Support",
+      "icon": "users",
+      "skills": [
+        { "name": "Enterprise IT Support", "level": "expert" },
+        { "name": "Stakeholder Communication", "level": "expert" },
+        { "name": "Training & Mentorship", "level": "advanced" },
+        { "name": "Technical Documentation", "level": "expert" },
+        { "name": "SLA Management", "level": "expert" },
+        { "name": "Escalation Handling", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "cloud",
+      "name": "Cloud & Infrastructure",
+      "icon": "cloud",
+      "skills": [
+        { "name": "AWS", "level": "certified", "details": "EC2, S3, Lambda, VPC, IAM, CloudFormation, CloudFront, Route 53, DynamoDB, API Gateway" },
+        { "name": "Azure", "level": "intermediate", "details": "Azure AD, basic services" },
+        { "name": "VMware vSphere", "level": "advanced" },
+        { "name": "Docker", "level": "intermediate" },
+        { "name": "Dynatrace", "level": "advanced" },
+        { "name": "CloudWatch", "level": "intermediate" }
+      ]
+    },
+    {
+      "id": "sysadmin",
+      "name": "Systems Administration",
+      "icon": "server",
+      "skills": [
+        { "name": "Windows Server", "level": "expert", "details": "2016-2022" },
+        { "name": "Active Directory", "level": "expert" },
+        { "name": "Group Policy", "level": "expert" },
+        { "name": "Linux", "level": "advanced", "details": "Ubuntu, CentOS, RHEL" },
+        { "name": "Identity Management", "level": "expert", "details": "AD, Okta, Azure AD, hybrid" },
+        { "name": "Networking", "level": "advanced", "details": "TCP/IP, DNS, DHCP, VPN" }
+      ]
+    },
+    {
+      "id": "development",
+      "name": "Development & Automation",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "level": "advanced", "details": "FastAPI, asyncio, automation" },
+        { "name": "PowerShell", "level": "expert" },
+        { "name": "Bash", "level": "intermediate" },
+        { "name": "C#", "level": "intermediate" },
+        { "name": "JavaScript/TypeScript", "level": "intermediate" },
+        { "name": "React", "level": "intermediate" },
+        { "name": "PostgreSQL", "level": "intermediate" },
+        { "name": "REST APIs", "level": "advanced" },
+        { "name": "WebSocket", "level": "intermediate" },
+        { "name": "Git/GitHub", "level": "advanced" }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI & Machine Learning",
+      "icon": "brain",
+      "skills": [
+        { "name": "LLM Integration", "level": "expert", "details": "OpenAI, Anthropic, Google, DeepSeek, Kimi" },
+        { "name": "API Debugging", "level": "expert" },
+        { "name": "Vector Databases", "level": "advanced", "details": "pgvector, semantic search" },
+        { "name": "Embeddings", "level": "advanced" },
+        { "name": "Local Model Fine-tuning", "level": "intermediate", "details": "RTX 5090" },
+        { "name": "Prompt Engineering", "level": "expert" },
+        { "name": "AI Tool Orchestration", "level": "expert" },
+        { "name": "MCP Servers", "level": "intermediate" }
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023",
+      "status": "active"
+    },
+    {
+      "name": "CompTIA A+",
+      "issuer": "CompTIA",
+      "date": null,
+      "status": "active"
+    },
+    {
+      "name": "RHCSA 9",
+      "issuer": "Red Hat",
+      "date": null,
+      "status": "in-progress"
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Business Administration",
+      "school": "College of Staten Island, CUNY",
+      "date": null
+    }
+  ]
+}

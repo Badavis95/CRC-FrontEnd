@@ -1,0 +1,52 @@
+---
+const interests = [
+  "AI-focused product roles",
+  "Developer experience / relations",
+  "Technical support at scale",
+  "Solutions architecture"
+];
+---
+
+<section id="contact" class="section bg-[var(--color-bg-secondary)]">
+  <div class="container-narrow text-center">
+    <h2 class="heading-section">
+      <span class="text-[var(--color-accent)]">/</span> Let's Build Something
+    </h2>
+
+    <div class="max-w-2xl mx-auto">
+      <p class="text-[var(--color-text-secondary)] text-lg mb-8">
+        I'm looking for opportunities where I can combine technical depth with customer understanding
+        and entrepreneurial drive. Whether it's product support, developer relations, solutions
+        architecture, or something else - I want to work on AI that genuinely helps people.
+      </p>
+
+      <div class="mb-8">
+        <p class="text-[var(--color-text-muted)] text-sm mb-4">Currently interested in:</p>
+        <div class="flex flex-wrap justify-center gap-3">
+          {interests.map((interest) => (
+            <span class="tag">{interest}</span>
+          ))}
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
+        <a href="mailto:badavis95@hotmail.com" class="btn-primary flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+          </svg>
+          badavis95@hotmail.com
+        </a>
+        <a href="/Brian_Davis_Resume.pdf" download class="btn-secondary flex items-center gap-2">
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+          </svg>
+          Download Resume
+        </a>
+      </div>
+
+      <p class="text-[var(--color-text-muted)] text-sm">
+        Based in NYC. Open to hybrid or remote.
+      </p>
+    </div>
+  </div>
+</section>

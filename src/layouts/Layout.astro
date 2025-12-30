@@ -1,0 +1,58 @@
+---
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Brian Davis | Builder, Entrepreneur, Engineer",
+  description = "Self-taught engineer and former CPG founder. From energy shots to AI systems. Based in NYC."
+} = Astro.props;
+
+const siteUrl = "https://bdavisawsresume.link";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Brian Davis, software engineer, AI, entrepreneur, NYC, developer, system administrator" />
+    <meta name="author" content="Brian Davis" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={siteUrl} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={`${siteUrl}/og-image.png`} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={siteUrl} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={`${siteUrl}/og-image.png`} />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="canonical" href={siteUrl} />
+
+    <style is:global>
+      @import '../styles/global.css';
+    </style>
+  </head>
+  <body class="antialiased">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 btn-primary">
+      Skip to main content
+    </a>
+    <slot />
+  </body>
+</html>

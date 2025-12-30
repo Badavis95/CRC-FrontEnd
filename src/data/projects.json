@@ -1,0 +1,134 @@
+{
+  "projects": [
+    {
+      "id": "aelorians",
+      "name": "Aelorians",
+      "tagline": "AI companion platform with persistent memory",
+      "description": "Building a platform for AI companions that actually remember, genuinely help, and respect user sovereignty. Targeting average people, not just developers. Voice-first accessibility with evidence-based memory system.",
+      "status": "in-development",
+      "featured": true,
+      "category": "ai",
+      "highlights": [
+        "Multi-provider LLM integration (OpenAI, Anthropic, DeepSeek, Kimi)",
+        "Evidence-based memory system (claims, contradictions, supersession)",
+        "Real-time WebSocket communication",
+        "Voice-first accessibility (TTS/STT pipelines)",
+        "VRM 3D avatar rendering (Three.js)",
+        "Vector database for semantic memory retrieval"
+      ],
+      "technologies": [
+        "FastAPI",
+        "PostgreSQL",
+        "pgvector",
+        "Redis",
+        "React",
+        "TypeScript",
+        "Three.js",
+        "WebSocket"
+      ],
+      "links": {
+        "github": null,
+        "live": null,
+        "demo": null
+      },
+      "image": null
+    },
+    {
+      "id": "serenergy",
+      "name": "Serenergy",
+      "tagline": "Nootropic energy shots - CPG startup",
+      "description": "Built a consumer product company from zero. Formulated a caffeine + L-theanine energy shot, created the brand, manufactured the product, and sold thousands of units. Got on local TV twice and made it to VitaminShoppe buyer meetings.",
+      "status": "completed",
+      "featured": true,
+      "category": "entrepreneurship",
+      "highlights": [
+        "Formulated nootropic energy shot (Caffeine + L-Theanine)",
+        "2 local TV appearances",
+        "Thousands of units sold through direct sales",
+        "VitaminShoppe national buyer meetings",
+        "Complete business operations: product, brand, sales, distribution"
+      ],
+      "technologies": [
+        "Product Development",
+        "Brand Building",
+        "Sales",
+        "Marketing",
+        "Supply Chain",
+        "Business Operations"
+      ],
+      "links": {
+        "github": null,
+        "live": null,
+        "demo": null
+      },
+      "image": null,
+      "note": "Business ended when commercial kitchen partner shut down unexpectedly"
+    },
+    {
+      "id": "cloud-resume",
+      "name": "Cloud Resume Challenge",
+      "tagline": "Serverless portfolio on AWS",
+      "description": "Full serverless architecture demonstrating AWS proficiency. Static hosting, CDN, serverless functions, NoSQL database, CI/CD pipeline, and Infrastructure as Code.",
+      "status": "completed",
+      "featured": true,
+      "category": "cloud",
+      "highlights": [
+        "S3 static website hosting",
+        "CloudFront CDN distribution",
+        "Lambda functions (Python) for visitor counter",
+        "DynamoDB for data persistence",
+        "API Gateway REST API",
+        "GitHub Actions CI/CD pipeline",
+        "CloudFormation Infrastructure as Code"
+      ],
+      "technologies": [
+        "AWS S3",
+        "CloudFront",
+        "Lambda",
+        "DynamoDB",
+        "API Gateway",
+        "Route 53",
+        "CloudFormation",
+        "GitHub Actions",
+        "Python"
+      ],
+      "links": {
+        "github": "https://github.com/Badavis95/CRC-FrontEnd",
+        "live": "https://bdavisawsresume.link",
+        "demo": null
+      },
+      "image": null
+    },
+    {
+      "id": "automation-framework",
+      "name": "Enterprise Automation Framework",
+      "tagline": "PowerShell + Python automation suite",
+      "description": "Comprehensive automation framework for enterprise IT operations at TransCore. Handles user provisioning, reporting, security monitoring, and diagnostic tooling.",
+      "status": "in-use",
+      "featured": false,
+      "category": "automation",
+      "highlights": [
+        "Batch user provisioning (100+ users per run)",
+        "Automated reporting pipelines",
+        "C# security monitoring application",
+        "PowerShell diagnostic tooling",
+        "75% reduction in ticket processing time",
+        "5+ hours/week saved on reporting"
+      ],
+      "technologies": [
+        "PowerShell",
+        "Python",
+        "C#",
+        "Active Directory",
+        "Windows Server"
+      ],
+      "links": {
+        "github": null,
+        "live": null,
+        "demo": null
+      },
+      "image": null,
+      "note": "Internal enterprise tooling - no public repo"
+    }
+  ]
+}

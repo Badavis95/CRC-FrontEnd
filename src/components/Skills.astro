@@ -1,0 +1,80 @@
+---
+import skillsData from '../data/skills.json';
+
+const iconMap: Record<string, string> = {
+  'briefcase': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>',
+  'users': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg>',
+  'cloud': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>',
+  'server': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"/></svg>',
+  'code': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>',
+  'brain': '<svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>',
+};
+
+const levelColors: Record<string, string> = {
+  'expert': 'var(--color-accent)',
+  'certified': 'var(--color-success)',
+  'advanced': 'var(--color-text-primary)',
+  'intermediate': 'var(--color-text-secondary)',
+};
+---
+
+<section id="skills" class="section">
+  <div class="container-narrow">
+    <h2 class="heading-section">
+      <span class="text-[var(--color-accent)]">/</span> Skills
+    </h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {skillsData.categories.map((category) => (
+        <div class="card group">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 rounded-lg flex items-center justify-center bg-[var(--color-bg-tertiary)] text-[var(--color-accent)] group-hover:bg-[var(--color-accent)] group-hover:text-[var(--color-bg-primary)] transition-colors">
+              <Fragment set:html={iconMap[category.icon] || iconMap['code']} />
+            </div>
+            <h3 class="font-display font-bold text-lg text-[var(--color-text-primary)]">
+              {category.name}
+            </h3>
+          </div>
+
+          <ul class="space-y-2">
+            {category.skills.map((skill) => (
+              <li class="flex items-center justify-between text-sm">
+                <span class="text-[var(--color-text-secondary)]">
+                  {skill.name}
+                </span>
+                <span class="text-xs px-2 py-0.5 rounded"
+                      style={`color: ${levelColors[skill.level] || 'var(--color-text-muted)'}; background-color: var(--color-bg-tertiary)`}>
+                  {skill.level}
+                </span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <div class="mt-16">
+      <h3 class="font-display font-bold text-xl text-[var(--color-text-primary)] mb-6">
+        Certifications
+      </h3>
+      <div class="flex flex-wrap gap-4">
+        {skillsData.certifications.map((cert) => (
+          <div class="card flex items-center gap-4">
+            <div class="w-12 h-12 rounded-lg flex items-center justify-center bg-[var(--color-accent)] text-[var(--color-bg-primary)]">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+              </svg>
+            </div>
+            <div>
+              <p class="font-semibold text-[var(--color-text-primary)]">{cert.name}</p>
+              <p class="text-sm text-[var(--color-text-muted)]">
+                {cert.issuer} {cert.date && `- ${cert.date}`}
+                {cert.status === 'in-progress' && <span class="text-[var(--color-warning)]"> (In Progress)</span>}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>
