@@ -1,30 +1,35 @@
 {
   "categories": [
     {
-      "id": "business",
-      "name": "Business & Entrepreneurship",
-      "icon": "briefcase",
+      "id": "ai",
+      "name": "AI & Machine Learning",
+      "icon": "brain",
       "skills": [
-        { "name": "Product Development", "level": "expert" },
-        { "name": "Sales & Direct Engagement", "level": "expert" },
-        { "name": "Marketing & Branding", "level": "advanced" },
-        { "name": "Business Operations", "level": "advanced" },
-        { "name": "Supply Chain Management", "level": "intermediate" },
-        { "name": "Financial Planning", "level": "intermediate" },
-        { "name": "Pitch Presentations", "level": "advanced" }
+        { "name": "LLM Integration", "level": "expert", "details": "OpenAI, Anthropic (Claude), Google, DeepSeek, Kimi - API access since Aug 2022" },
+        { "name": "Prompt Engineering", "level": "expert", "details": "Top 0.1% early ChatGPT user (verified)" },
+        { "name": "API Debugging & Orchestration", "level": "expert" },
+        { "name": "Vector Databases", "level": "advanced", "details": "pgvector, semantic search, RAG" },
+        { "name": "Embeddings & Memory Systems", "level": "advanced", "details": "Evidence-based claims, contradiction detection" },
+        { "name": "Local Model Fine-tuning", "level": "intermediate", "details": "RTX 5090, local inference" },
+        { "name": "Voice AI", "level": "intermediate", "details": "TTS/STT pipelines, voice-first UX" },
+        { "name": "MCP Servers", "level": "intermediate" }
       ]
     },
     {
-      "id": "support",
-      "name": "Customer-Facing & Support",
-      "icon": "users",
+      "id": "development",
+      "name": "Development & Automation",
+      "icon": "code",
       "skills": [
-        { "name": "Enterprise IT Support", "level": "expert" },
-        { "name": "Stakeholder Communication", "level": "expert" },
-        { "name": "Training & Mentorship", "level": "advanced" },
-        { "name": "Technical Documentation", "level": "expert" },
-        { "name": "SLA Management", "level": "expert" },
-        { "name": "Escalation Handling", "level": "advanced" }
+        { "name": "Python", "level": "advanced", "details": "FastAPI, asyncio, automation" },
+        { "name": "PowerShell", "level": "expert" },
+        { "name": "Bash", "level": "intermediate" },
+        { "name": "C#", "level": "intermediate" },
+        { "name": "JavaScript/TypeScript", "level": "intermediate" },
+        { "name": "React", "level": "intermediate" },
+        { "name": "PostgreSQL", "level": "intermediate" },
+        { "name": "REST APIs", "level": "advanced" },
+        { "name": "WebSocket", "level": "intermediate" },
+        { "name": "Git/GitHub", "level": "advanced" }
       ]
     },
     {
@@ -54,41 +59,36 @@
       ]
     },
     {
-      "id": "development",
-      "name": "Development & Automation",
-      "icon": "code",
+      "id": "support",
+      "name": "Customer-Facing & Support",
+      "icon": "users",
       "skills": [
-        { "name": "Python", "level": "advanced", "details": "FastAPI, asyncio, automation" },
-        { "name": "PowerShell", "level": "expert" },
-        { "name": "Bash", "level": "intermediate" },
-        { "name": "C#", "level": "intermediate" },
-        { "name": "JavaScript/TypeScript", "level": "intermediate" },
-        { "name": "React", "level": "intermediate" },
-        { "name": "PostgreSQL", "level": "intermediate" },
-        { "name": "REST APIs", "level": "advanced" },
-        { "name": "WebSocket", "level": "intermediate" },
-        { "name": "Git/GitHub", "level": "advanced" }
+        { "name": "Enterprise IT Support", "level": "expert" },
+        { "name": "Stakeholder Communication", "level": "expert" },
+        { "name": "Training & Mentorship", "level": "advanced" },
+        { "name": "Technical Documentation", "level": "expert" },
+        { "name": "SLA Management", "level": "expert" },
+        { "name": "Escalation Handling", "level": "advanced" }
       ]
     },
     {
-      "id": "ai",
-      "name": "AI & Machine Learning",
-      "icon": "brain",
+      "id": "business",
+      "name": "Business & Entrepreneurship",
+      "icon": "briefcase",
       "skills": [
-        { "name": "LLM Integration", "level": "expert", "details": "OpenAI, Anthropic, Google, DeepSeek, Kimi" },
-        { "name": "API Debugging", "level": "expert" },
-        { "name": "Vector Databases", "level": "advanced", "details": "pgvector, semantic search" },
-        { "name": "Embeddings", "level": "advanced" },
-        { "name": "Local Model Fine-tuning", "level": "intermediate", "details": "RTX 5090" },
-        { "name": "Prompt Engineering", "level": "expert" },
-        { "name": "AI Tool Orchestration", "level": "expert" },
-        { "name": "MCP Servers", "level": "intermediate" }
+        { "name": "Product Development", "level": "expert" },
+        { "name": "Sales & Direct Engagement", "level": "expert" },
+        { "name": "Marketing & Branding", "level": "advanced" },
+        { "name": "Business Operations", "level": "advanced" },
+        { "name": "Supply Chain Management", "level": "intermediate" },
+        { "name": "Financial Planning", "level": "intermediate" },
+        { "name": "Pitch Presentations", "level": "advanced" }
       ]
     }
   ],
   "certifications": [
     {
-      "name": "AWS Certified Solutions Architect – Associate",
+      "name": "AWS Certified Solutions Architect - Associate",
       "issuer": "Amazon Web Services",
       "date": "2023",
       "status": "active"

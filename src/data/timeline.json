@@ -1,45 +1,60 @@
 {
   "timeline": [
     {
+      "year": "2014",
+      "title": "First Job",
+      "description": "Started at PetSmart as an overnight stocker. First work experience - building the foundation.",
+      "type": "foundation",
+      "icon": "briefcase"
+    },
+    {
       "year": "2015",
-      "title": "Retail Foundation",
-      "description": "Started in retail, building the foundation of customer service, communication, and understanding people that would inform everything that came after.",
+      "title": "GNC & Supplement Industry",
+      "description": "Joined GNC and learned the supplement industry from the inside. This is where the Serenergy idea was born - saw the market opportunity firsthand.",
       "type": "foundation",
       "icon": "shopping-bag"
     },
     {
-      "year": "2018",
+      "year": "2017",
       "title": "Serenergy Founded",
-      "description": "Launched a nootropic energy shot company at age 21. Caffeine + L-Theanine formula, 'serene energy' branding. Built everything solo: product, brand, sales, distribution.",
+      "description": "Quit to go all in on the dream. Launched a nootropic energy shot company at 20. 2oz caffeine + L-theanine shots, 'Serene Energy' branding. Built everything solo: formulation, brand, packaging, sales, supply chain.",
       "type": "entrepreneurship",
       "icon": "rocket",
       "highlight": true
     },
     {
+      "year": "2018",
+      "title": "Building & Surviving",
+      "description": "VitaminShoppe Keyholder by day, founder by night. Worked retail to survive and fund inventory - not as a backup plan, but because CPG is expensive and there was no safety net. Never stopped building.",
+      "type": "entrepreneurship",
+      "icon": "battery-charging"
+    },
+    {
       "year": "2019",
-      "title": "Television & Growth",
-      "description": "Appeared on local television twice. Sold thousands of units through direct sales. Got to VitaminShoppe buyer meetings for potential national distribution.",
+      "title": "Television & Traction",
+      "description": "Appeared on local TV twice. Sold thousands of units through events and farmers markets. Got to VitaminShoppe NATIONAL BUYER meetings - distribution was within reach. Then Pilotworks shut down.",
       "type": "entrepreneurship",
       "icon": "tv"
     },
     {
       "year": "2020",
       "title": "The Pivot",
-      "description": "Pilotworks (commercial kitchen partner) shut down unexpectedly, collapsing supply chain. Made the hard decision to pivot to IT. Started self-teaching—no bootcamp, no CS degree.",
+      "description": "Pilotworks (WeWork-style commercial kitchen) collapsed, taking hundreds of food startups with it. Lost the means to make the product overnight. Made the hard decision to pivot to IT. Started self-teaching - no bootcamp, no CS degree.",
       "type": "transition",
       "icon": "refresh-cw"
     },
     {
       "year": "2021",
       "title": "VitaminShoppe IT",
-      "description": "First IT role as Service Desk Analyst. Remote position supporting 5,000+ users across corporate and retail. Learned enterprise IT from the ground up.",
+      "description": "Internal promotion from retail Keyholder to IT Service Desk. VitaminShoppe saw something in me. Self-taught the skills, earned the opportunity. Remote position supporting 5,000+ users.",
       "type": "career",
-      "icon": "headphones"
+      "icon": "headphones",
+      "highlight": true
     },
     {
       "year": "2022",
       "title": "AI Early Adopter",
-      "description": "Gained access to ChatGPT API and playground in August 2022—three months before the public launch. Top 0.1% of early users (verified by ChatGPT Wrapped). Started building with LLMs immediately.",
+      "description": "Gained API access to GPT-3.5/ChatGPT playground in August 2022 - THREE MONTHS before the Nov 30, 2022 public launch. Top 0.1% of early users (ChatGPT Wrapped verified). Started building with LLMs immediately.",
       "type": "ai",
       "icon": "cpu",
       "highlight": true
@@ -54,7 +69,7 @@
     {
       "year": "2024",
       "title": "System Admin + Aelorians",
-      "description": "Promoted to System Administrator at TransCore. Started building Aelorians AI companion platform. Invested in RTX 5090 for local model fine-tuning.",
+      "description": "System Administrator at TransCore. Started building Aelorians AI companion platform. Invested in RTX 5090 for local model fine-tuning. Now building AI systems, not just using AI tools.",
       "type": "current",
       "icon": "terminal",
       "highlight": true
@@ -62,7 +77,7 @@
     {
       "year": "2025",
       "title": "What's Next?",
-      "description": "Looking for the right opportunity to bring together entrepreneurial grit, technical depth, and genuine passion for building things that help people.",
+      "description": "Looking for the right opportunity to combine technical depth with customer understanding and builder mentality. AI-focused product roles, developer relations, solutions architecture - wherever I can build things that genuinely help people.",
       "type": "future",
       "icon": "arrow-right"
     }

@@ -33,16 +33,16 @@
       ]
     },
     {
-      "id": "vitaminshoppe",
+      "id": "vitaminshoppe-it",
       "company": "VitaminShoppe",
       "role": "IT Service Desk Analyst",
       "type": "full-time",
       "startDate": "2021-05",
-      "endDate": "2024-01",
+      "endDate": "2024-03",
       "current": false,
       "location": "Remote",
       "locationType": "remote",
-      "description": "Enterprise IT support for a national retail chain with 700+ stores.",
+      "description": "Enterprise IT support for a national retail chain with 700+ stores. Internal promotion from Keyholder role.",
       "achievements": [
         "Supported 5,000+ end users across corporate headquarters and retail locations",
         "Maintained 99.5% SLA compliance for ticket resolution",
@@ -61,27 +61,52 @@
         "PowerShell",
         "Python",
         "Windows 10/11"
+      ],
+      "note": "Promoted internally from retail Keyholder - self-taught IT skills and earned the opportunity"
+    },
+    {
+      "id": "vitaminshoppe-keyholder",
+      "company": "VitaminShoppe",
+      "role": "Keyholder",
+      "type": "full-time",
+      "startDate": "2018-03",
+      "endDate": "2021-05",
+      "current": false,
+      "location": "NYC Metro Area",
+      "locationType": "on-site",
+      "description": "Retail management role while building Serenergy. Stayed because VitaminShoppe believed in me enough to later promote me into IT.",
+      "achievements": [
+        "Managed store operations and team supervision",
+        "Built deep product knowledge in nutrition and supplements",
+        "Balanced full-time work with building Serenergy and college"
+      ],
+      "technologies": [
+        "Retail Operations",
+        "Team Management",
+        "Customer Service",
+        "Inventory Management"
       ]
     },
     {
       "id": "serenergy",
-      "company": "Serenergy",
+      "company": "Serenergy (DBA: Zen Infinity)",
       "role": "Founder & CEO",
       "type": "founder",
-      "startDate": "2018-01",
-      "endDate": "2020-01",
+      "startDate": "2017-01",
+      "endDate": "2019-12",
       "current": false,
       "location": "Brooklyn, NY",
       "locationType": "on-site",
-      "description": "Founded and operated a consumer packaged goods company producing nootropic energy shots.",
+      "description": "Quit to pursue this full-time. Built a nootropic energy shot company from zero while in college. Worked survival jobs to fund inventory and pay rent - never gave up until forced to.",
       "achievements": [
-        "Created caffeine + L-theanine nootropic formula from scratch",
-        "Built brand identity, packaging, and marketing materials",
+        "Created caffeine + L-theanine nootropic formula (2oz shots, $2/bottle)",
+        "Built complete brand: 'Serene Energy' concept, packaging, marketing",
         "Appeared on local television twice to promote the product",
-        "Sold thousands of units at $2 per bottle through direct sales",
-        "Advanced to buyer meetings with VitaminShoppe (national distribution)",
-        "Managed complete supply chain from commercial kitchen facility",
-        "Built everything solo while attending college full-time"
+        "Sold thousands of units through events, farmers markets, direct sales",
+        "Advanced to NATIONAL BUYER meetings with VitaminShoppe - distribution was within reach",
+        "Managed complete supply chain from Pilotworks Brooklyn commercial kitchen",
+        "Built EVERYTHING solo: formulation, branding, packaging, sales, marketing, supply chain",
+        "Did this while in college full-time AND working survival jobs"
       ],
       "technologies": [
         "Business Operations",
@@ -91,7 +116,48 @@
         "Product Development",
         "Brand Building"
       ],
-      "note": "Business ended when commercial kitchen partner (Pilotworks) shut down unexpectedly, collapsing supply chain."
+      "note": "Business ended in 2019 when Pilotworks (WeWork-style commercial kitchen) shut down, affecting hundreds of food startups. Lost production capability overnight - not the dream, but the means to make it."
+    },
+    {
+      "id": "gnc",
+      "company": "GNC",
+      "role": "Sales Associate",
+      "type": "full-time",
+      "startDate": "2015-05",
+      "endDate": "2017-04",
+      "current": false,
+      "location": "NYC Metro Area",
+      "locationType": "on-site",
+      "description": "Nutrition and supplement retail. This is where the Serenergy idea was born - saw the market opportunity firsthand.",
+      "achievements": [
+        "Learned the supplement industry from the inside",
+        "Identified market gap that became Serenergy concept",
+        "Built foundation in nutrition product knowledge and customer education"
+      ],
+      "technologies": [
+        "Retail Sales",
+        "Customer Service",
+        "Product Knowledge"
+      ]
+    },
+    {
+      "id": "petsmart",
+      "company": "PetSmart",
+      "role": "Overnight Stocker",
+      "type": "part-time",
+      "startDate": "2014-07",
+      "endDate": "2015-05",
+      "current": false,
+      "location": "NYC Metro Area",
+      "locationType": "on-site",
+      "description": "First job. Retail foundation.",
+      "achievements": [
+        "First work experience - built foundation of reliability and work ethic"
+      ],
+      "technologies": [
+        "Retail Operations",
+        "Inventory Management"
+      ]
     }
   ]
 }

@@ -3,18 +3,19 @@
     {
       "id": "aelorians",
       "name": "Aelorians",
-      "tagline": "AI companion platform with persistent memory",
-      "description": "Building a platform for AI companions that actually remember, genuinely help, and respect user sovereignty. Targeting average people, not just developers. Voice-first accessibility with evidence-based memory system.",
+      "tagline": "AI companions that actually remember",
+      "description": "Building what Replika and Character.AI should be. AI companions with memory that works (evidence-based claims system, not hallucinations), user sovereignty (exportable data, no lock-in), and voice-first accessibility. Built for average people, not developers. Companions on the platform are called Aelorians.",
       "status": "in-development",
       "featured": true,
       "category": "ai",
       "highlights": [
-        "Multi-provider LLM integration (OpenAI, Anthropic, DeepSeek, Kimi)",
-        "Evidence-based memory system (claims, contradictions, supersession)",
+        "Memory that works: evidence-based claims system with contradiction detection",
+        "User sovereignty: exportable data, no vendor lock-in",
+        "Voice-first: designed for accessibility (disabilities, chronic pain, ADHD)",
+        "Multi-provider LLM support: OpenAI, Anthropic, DeepSeek, Kimi - user choice",
         "Real-time WebSocket communication",
-        "Voice-first accessibility (TTS/STT pipelines)",
         "VRM 3D avatar rendering (Three.js)",
-        "Vector database for semantic memory retrieval"
+        "Vector database for semantic memory retrieval (pgvector)"
       ],
       "technologies": [
         "FastAPI",
@@ -24,29 +25,33 @@
         "React",
         "TypeScript",
         "Three.js",
-        "WebSocket"
+        "WebSocket",
+        "TTS/STT"
       ],
       "links": {
         "github": null,
         "live": null,
         "demo": null
       },
-      "image": null
+      "image": null,
+      "note": "Designed from personal need - chronic pain makes voice interfaces essential"
     },
     {
       "id": "serenergy",
       "name": "Serenergy",
-      "tagline": "Nootropic energy shots - CPG startup",
-      "description": "Built a consumer product company from zero. Formulated a caffeine + L-theanine energy shot, created the brand, manufactured the product, and sold thousands of units. Got on local TV twice and made it to VitaminShoppe buyer meetings.",
+      "tagline": "Nootropic energy shots - went all in",
+      "description": "Quit to pursue this full-time at 20. 2oz nootropic energy shots with caffeine + L-theanine ('Serene Energy' = calm focus, no jitters). $2/bottle through events, farmers markets, direct sales. Built everything solo while in college. Worked survival jobs to fund inventory.",
       "status": "completed",
       "featured": true,
       "category": "entrepreneurship",
       "highlights": [
-        "Formulated nootropic energy shot (Caffeine + L-Theanine)",
+        "Formulated nootropic shot from scratch (Caffeine + L-Theanine)",
         "2 local TV appearances",
         "Thousands of units sold through direct sales",
-        "VitaminShoppe national buyer meetings",
-        "Complete business operations: product, brand, sales, distribution"
+        "VitaminShoppe NATIONAL BUYER meetings - distribution within reach",
+        "Built EVERYTHING solo: formulation, branding, packaging, sales, supply chain",
+        "Did this while in college full-time AND working survival jobs",
+        "Production at Pilotworks Brooklyn commercial kitchen"
       ],
       "technologies": [
         "Product Development",
@@ -62,7 +67,7 @@
         "demo": null
       },
       "image": null,
-      "note": "Business ended when commercial kitchen partner shut down unexpectedly"
+      "note": "Ended 2019 when Pilotworks shut down (WeWork-style commercial kitchen collapse) - lost production capability, not the dream"
     },
     {
       "id": "cloud-resume",
